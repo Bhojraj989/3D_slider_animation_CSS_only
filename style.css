@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    background-color: black;
 }
 .banner{
     width: 100%;
@@ -14,7 +15,7 @@ body{
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 10%;
+    top: 30%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -31,8 +32,8 @@ body{
 }
 @keyframes autoRun{
     from{
-        transform: perspective(1000px) rotateX(-30deg)  rotateY(0deg);
-    }to{transform: perspective(1000px) rotateX(-30deg)  rotateY(360deg);
+        transform: perspective(1000px)   rotateY(0deg);
+    }to{transform: perspective(1000px)   rotateY(360deg);
     }
 }
 
